@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#jumbotron {
+    margin-bottom: 0px;
+}
+
+.orangnya {
+    background-color: #212529;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.orangnya p {
+    color: white;
+    padding: 0px 0px 100px 0px;
+}
+
+.orangnya img {
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: white;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 5px white;
+    background-color: #212529;
+}
+
+.wave1 {
+    margin-top: 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.row {
+    justify-content: center;
+    display: flex;
+}
+
+.col {
+    padding: 0px 30px 0px 30px;
+    flex-wrap: wrap;
+}
+
+.colo {
+    padding: 0px 30px 0px 30px;
+    flex-wrap: wrap;
+}
+
+.colo p {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 120px;
+    margin-left: 310px;
+}
+
+h5 {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+.col p {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.ini {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 0px 300px 0px 300px;
+}
+
+.itu {
+    padding: 20px 10px 0px 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 3px black;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+}

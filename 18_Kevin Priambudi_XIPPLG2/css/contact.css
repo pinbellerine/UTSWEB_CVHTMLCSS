@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#jumbotron {
+    margin-bottom: 0px;
+}
+
+.orangnya {
+    background-color: #212529;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.orangnya p {
+    color: white;
+    padding: 0px 0px 100px 0px;
+}
+
+.orangnya img {
+    margin-top: 100px;
+    width: 200px;
+    border-radius: 50%;
+    border-color: white;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 5px white;
+    background-color: #212529;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.col {
+    padding: 20px 30px 0px 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 3px black;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.col img {
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.col a {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0px 30px 0px 20px;
+}
+
+.KontakUs {
+    padding: 30px 0px 100px 0px;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: auto;
+    padding: 30px 0px 30px 0px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+h7 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-container {
+    width: 40%;
+    height: 80%;
+    text-align: center;
+}
+
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #212529;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #212529;
+    background-color: #212529;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+textarea {
+    height: 90px;
+}
+/* responsive */
+
+@media only screen and (max-width: 600px){
+    .left {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
+}
